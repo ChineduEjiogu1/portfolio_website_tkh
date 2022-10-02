@@ -1,12 +1,23 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F7ECDE;
+    /* background-color: #F7ECDE; */
+    background-color: #e3e2df;
+    /* background-image: url(./background_3.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+pre {
+    font-family: 'Fira Code', monospace;
+    color: #9a1750;
 }
 
 .nav-bar > ul {
@@ -15,12 +26,14 @@ a {
     /* border: 2px black solid; */
     justify-content: end;
     list-style-type: none;
+    
 }
 
 li {
     margin: 0px 15px 0px 15px;
     font-size: large;
-    color: black;
+    color: black;  
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 .main-content {
@@ -33,30 +46,32 @@ li {
     /* border: 2px black solid; */
     display: flex;
     justify-content: end;
+    /* position: relative; */
 }
 
 #picture {
     margin: 0px 90px 0px 0px;
     /* border: 2px black solid; */
-    width: 45%;
-    height: 255px;
+    width: 55%;
+    height: 275px;
     border-radius: 50%;
 }
 
 .intro-blurb {
+    font-family: 'Righteous', cursive;
     font-size: 70px;
     /* border: 2px black solid; */
-    margin: 150px 40px 0px 0px;
+    margin: 105px 40px 0px 0px;
+    color: #e20248;
     /* color: #DAEAF1; */
 }
 
-
-.icons{
+.icons {
     /* border: 2px black solid; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 160px 40px 0px 0px;
+    margin: 120px 40px 0px 35px;   
 }
 
 .email {
@@ -66,13 +81,49 @@ li {
     justify-content: flex-end;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    font-size: xx-large;
-    margin: 100px 40px 0px 0px;
+    font-size: x-large;
+    margin: 50px 40px 0px 0px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #5d001d;
 }
 
 .vl {
     /* border: 2px black solid; */
-    border-left: 4px solid black;
-    height: 160px;
-    margin: 15px 0px 0px 20px;
+    border-left: 3px solid #ee4c7c;
+    height: 180px;
+    margin: 15px 0px 0px 23px;
+}
+
+.vl2 {
+    /* border: 2px black solid; */
+    border-left: 3px solid #5d001d;
+    /* display: inline-block; */
+    height: 95px;
+    margin: 325px -15px 0px 0px;
+}
+
+.intro-sentence {
+    /* border: 2px black solid; */
+    font-size: large;
+    position: absolute;
+    font-family: 'Fira Code', monospace;
+}
+
+.btn {
+    /* border: 2px black solid; */
+    border: none;
+    /* background-color: #CDC2AE; */
+    background-color: #F37878;
+    color: #5d001d;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 126px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    font-family: 'Kanit', sans-serif;
 }
