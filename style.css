@@ -3,10 +3,9 @@ body {
     padding: 0;
     /* background-color: #F7ECDE; */
     background-color: #e3e2df;
-    /* background-image: url(./background_3.jpg); */
+    /* background-image: url(./background_2.jpg); */
     background-repeat: no-repeat;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -23,59 +22,61 @@ pre {
 .nav-bar > ul {
     display: flex;
     nav-right: auto;
-    /* border: 2px black solid; */
     justify-content: end;
-    list-style-type: none;
-    
+    list-style-type: none; 
+}
+
+#hl {
+    border-bottom: 5px solid #9a1750;
+    position: absolute;
+    margin: 0px 0px 0px 465px;
+    left: 0;
+    height: 4%;
+    width: 62px;
 }
 
 li {
     margin: 0px 15px 0px 15px;
     font-size: large;
-    color: black;  
-    font-family: 'Noto Sans Mono', monospace;
+    color: black;
 }
 
 .main-content {
-    /* border: 2px black solid; */
-    /* padding: 30px; */
     display: flex;
 }
 
 .headshot {
-    /* border: 2px black solid; */
     display: flex;
     justify-content: end;
-    /* position: relative; */
 }
 
 #picture {
     margin: 0px 90px 0px 0px;
-    /* border: 2px black solid; */
     width: 55%;
     height: 275px;
     border-radius: 50%;
 }
 
+#intro {
+    color: #9a1750;
+}
+
 .intro-blurb {
     font-family: 'Righteous', cursive;
     font-size: 70px;
-    /* border: 2px black solid; */
     margin: 105px 40px 0px 0px;
     color: #e20248;
     /* color: #DAEAF1; */
 }
 
 .icons {
-    /* border: 2px black solid; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 120px 40px 0px 35px;   
+    margin: 124px 40px 0px 35px;   
 }
 
 .email {
-    /* border: 2px black solid; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -88,29 +89,24 @@ li {
 }
 
 .vl {
-    /* border: 2px black solid; */
     border-left: 3px solid #ee4c7c;
     height: 180px;
     margin: 15px 0px 0px 23px;
 }
 
 .vl2 {
-    /* border: 2px black solid; */
     border-left: 3px solid #5d001d;
-    /* display: inline-block; */
     height: 95px;
     margin: 325px -15px 0px 0px;
 }
 
 .intro-sentence {
-    /* border: 2px black solid; */
     font-size: large;
     position: absolute;
     font-family: 'Fira Code', monospace;
 }
 
 .btn {
-    /* border: 2px black solid; */
     border: none;
     /* background-color: #CDC2AE; */
     background-color: #F37878;
@@ -121,7 +117,8 @@ li {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 50px 126px;
+    /* margin: 50px 126px; */
+    margin: 50px -1155px;
     cursor: pointer;
     position: absolute;
     bottom: 0px;

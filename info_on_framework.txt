@@ -1,0 +1,25 @@
+resources:
+https://craftercms.org/blog/2021/09/what-is-material-ui
+
+https://www.toptal.com/designers/ui/why-use-material-design
+
+https://flatlogic.com/blog/bootstrap-vs-material-ui-which-one-to-use-for-the-next-web-app/
+
+
+
+I've chosen Material UI as my preferred framework choose due to fact it has great cohesion with React.JS. As Material UI 
+provides React components out-of-the-box which will quickly get my React application up and running, 
+saving me a significant amount of time in the process. Due to React.js being the most used web development framework in 2021,
+it would make sense to use Material UI. Material UI is quite dynamic and functional as it will allow me to easily set and customize themes that 
+can be generally applied and accessed across all of my components. That means I can customize components' theme color(s), 
+palette information, surface properties, and many other stylings. Because of this, I'll have consistency throughout my components.
+Futhermore, Material UI documentation is well-structured and easily reachable. Also, there are several code examples I can use to practice or 
+understand any implementation which will avoid poor documentation.
+
+Material Design original use or purpose was primarily for mobile development. Mobiles have smaller screens and, as a 
+result, less space to place elements and information, the solution from Material UI is to use animation, layers, sliders, pop-ups.
+Its has user-friendly feature that takes user feedback in the form of haptic feedback and subtle animations.
+As mobile development is trending now it sees fit for me to use Material Design since its an easy transition to move web apps
+to mobile apps. To add on Material UI has great support for developers who use it bugs or other issues will be nullified thanks to its 
+active team and regular updates and features. With several minor releases yearly, I can get access to new features, components, 
+and extensions. On top of that, each release features detailed and comprehensive documentation.
