@@ -137,7 +137,7 @@ li {
   }
   
   /* this selector selects all divs inside of .flex-container */
-  .pic-container div img {
+  .project-container div img {
     background-color: #e3e2df;
     border: 3px solid #e20248;
     height: 400px;
@@ -145,6 +145,6 @@ li {
     flex: 1 1 auto;
   }
   
-  .pic-container .two {
+  .project-container .two {
     flex-shrink: 0;
   }
